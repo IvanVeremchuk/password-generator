@@ -1,4 +1,4 @@
-Cybersecurity is immensily important. This react app allows create passwords using the password tool.
+Cybersecurity is immensily important. This react tool allows create passwords.
 
 https://ivanveremchuk.github.io/password-generator/
 
