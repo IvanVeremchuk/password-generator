@@ -1,0 +1,10 @@
+.inputWindow {
+    border: 1px solid #072b5a;
+    border-radius: 10px;
+
+    width: 200px;
+
+    padding: 5px 15px;
+
+    margin-top: 15px;
+}

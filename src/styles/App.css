@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Radio Canada', sans-serif;
+}
+.App {
+    width: 300px;
+    height: 400px;
+    border: 2px solid #4f8ea1;
+    border-radius: 15px;
+
+    position: relative;
+
+    background-color: #f4fff6;
+
+    margin: 140px auto 0;
+
+    -webkit-box-shadow: 0 0 16px 19px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0 0 16px 19px rgba(34, 60, 80, 0.2);
+    box-shadow: 0 2px 1px rgba(0,0,0,0.09), 
+    0 4px 2px rgba(0,0,0,0.09), 
+    0 8px 4px rgba(0,0,0,0.09), 
+    0 16px 8px rgba(0,0,0,0.09),
+    0 32px 16px rgba(0,0,0,0.09);
+}
+.AppTitle {
+    text-align: center;
+    margin-top: 10px;
+    color: #fefff7;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+    font-size: 28px;
+
+    position: relative;
+    z-index: 2;
+}
+.AppBackground {
+    z-index: 1;
+    width: 296px;
+    height: 50px;
+    object-fit: cover;
+
+    border-radius: 13px 13px 0 0;
+    opacity: 1;
+
+    margin: 0 auto;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.AppText {
+    font-size: 20px;
+    color: #03382f;
+}
+.AppTextLeft {
+    margin-right: 5px;
+}
+.AppTextRight {
+    margin-left: 5px;
+}
+
